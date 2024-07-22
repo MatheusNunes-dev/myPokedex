@@ -1,0 +1,113 @@
+li{
+    list-style:none;
+    display: inline-block;
+}
+
+ul{
+    padding: 0;
+}
+main{
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.content-details{
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.detalhes-superior{
+    background-color:#ff6d6e;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    padding: 1rem;
+}
+
+.cabecalho-pokemon-details {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.nome-pokemon{
+    color:white;    
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.numero-pokemon{
+    color: white;
+    font-weight: 600;
+}
+
+
+.categoria-pokemon{
+    color: white;
+    border-radius: 1rem;
+    font-size: .75rem;
+    padding: 0.25rem 0.5rem;
+    background-color: #ff6d6e;
+    filter: brightness(1.1);
+}
+
+
+.detalhes-inferior{
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    background-color: rgba(255, 255, 255, 0.95);
+    color:rgba(0, 0, 0, 0.933);
+
+}
+
+.img-pokemon{
+    width: 20rem;
+}
+
+.category-details{
+    margin:1rem;
+    display: flex;
+    justify-content: center;
+    font-size:18px;
+}
+
+.text-base-status{
+    border-bottom:solid;
+    padding-bottom: .8rem;
+}
+
+
+.powers-level{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    padding: 1rem;
+    
+}
+
+.power-name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}   
+
+.power-number{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nome-habilidade{
+    margin-bottom: .5rem;
+}
+
+.quantidade-habilidade{
+    margin-bottom: .5rem;
+}
